@@ -105,7 +105,7 @@ const Book = () => {
                     {   pagina === 2 && ( 
                         <Pagina2
                             titulo = "Titulo"
-                            img1 = {Imagenes.img4}
+                            img1 = {Imagenes.img6}
                             text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         />
                     )}
@@ -113,27 +113,72 @@ const Book = () => {
                     {   pagina === 3 && ( 
                         <Pagina3
                             titulo = "Titulo"
-                            img1 = {Imagenes.img4}
-                            img2 = {Imagenes.img4}
-                            img3 = {Imagenes.img5}
+                            img1 = {Imagenes.img11}
+                            img2 = {Imagenes.img12}
+                            img3 = {Imagenes.img13}
                             text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         />
                     )}
                     {   pagina === 4 && ( 
                         <Pagina4
                             titulo = "Titulo"
-                            img1 = {Imagenes.img4}
-                            img2 = {Imagenes.img4}
-                            img3 = {Imagenes.img5}
-                            img4 = {Imagenes.img5}
+                            img1 = {Imagenes.img7}
+                            img2 = {Imagenes.img8}
+                            img3 = {Imagenes.img9}
+                            img4 = {Imagenes.img10}
                         />
                     )}
                     {   pagina === 5 && ( 
                         <Pagina5
                             titulo = "Titulo"
-                            img1 = {Imagenes.img4}
-                            img2 = {Imagenes.img4}
-                            img3 = {Imagenes.img5}
+                            img1 = {Imagenes.img1}
+                            img2 = {Imagenes.img3}
+                            img3 = {Imagenes.img2}
+                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                        />
+                    )}
+                    {   pagina === 6 && ( 
+                        <Pagina3
+                            titulo = "Titulo"
+                            img1 = {Imagenes.img16}
+                            img2 = {Imagenes.img14}
+                            img3 = {Imagenes.img15}
+                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                        />
+                    )}
+                    {   pagina === 7 && ( 
+                        <Pagina3
+                            titulo = "Titulo"
+                            img1 = {Imagenes.img19}
+                            img2 = {Imagenes.img17}
+                            img3 = {Imagenes.img18}
+                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                        />
+                    )}
+                    {   pagina === 8 && ( 
+                        <Pagina1
+                            titulo = "Titulo"
+                            img1 = {Imagenes.img20}
+                            img2 = {Imagenes.img21}
+                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            text2 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                        />
+                    )}
+                    {   pagina === 9 && ( 
+                        <Pagina5
+                            titulo = "Titulo"
+                            img1 = {Imagenes.img22}
+                            img2 = {Imagenes.img23}
+                            img3 = {Imagenes.img24}
+                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                        />
+                    )}
+                    {   pagina === 10 && ( 
+                        <Pagina5
+                            titulo = "Titulo"
+                            img1 = {Imagenes.img25}
+                            img2 = {Imagenes.img27}
+                            img3 = {Imagenes.img26}
                             text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         />
                     )}

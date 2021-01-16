@@ -29,7 +29,7 @@ const Pagina5 = ({titulo, img1, img2, img3, text1}) => {
             <div className="col-4"></div>
 
             <div className="col-4 ContenedorP5Img3 animate__animated animate__bounceInDown">
-                <img src={img2} alt="img"/>
+                <img src={img3} alt="img"/>
             </div>
         </div>
 
