@@ -1,0 +1,59 @@
+@media (min-width:200px) {
+    .ContenedorHeader{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.Header{
+    background-color: var(--vino);
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+.ContenedorHeader{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    
+}
+.ContenedorLogo{
+    display:flex;
+    align-items: center;
+}
+.Logo{
+    color: var(--blanco);
+    font-size: 4rem;
+    line-height: 0;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 2rem;
+}
+.Logo:hover{
+    color: var(--blanco);
+    text-decoration: none;
+}
+.ContenedorLogin{
+    display: flex;
+    align-items: center;
+}
+.button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: var(--vino);
+    border: 1px solid var(--blanco);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 20.5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover{
+    color: var(--vino);
+    background-color: var(--blanco);
+    text-decoration: none;
+    border: 1px solid var(--vino);
+}

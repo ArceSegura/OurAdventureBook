@@ -1,0 +1,56 @@
+.ContenedorP5{
+    height: 100% !important; 
+    border-bottom: 3px solid var(--vino);
+    border-right: 3px solid var(--vino);
+    border-top: 3px solid var(--vino);
+    margin: 0;
+    background-image: url(../../images/textura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+}
+.ContenedorP5Titulo{
+    color: var(--vino);
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin: 4rem 0 0 0;
+    text-align: center;
+}
+.ContenedorP5Img1, .ContenedorP5Img2, .ContenedorP5Img3, .ContenedorP5Text1{
+    overflow: visible !important;
+}
+.ContenedorP5Img1 img{
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+.ContenedorP5Img2 img{
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+.ContenedorP5Img3 img{
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+.ContenedorP5Text1{
+    font-size: 1.8rem;
+    margin:auto;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding: 0;
+
+    transform: translate(50px, -40px);
+}
+.ContenedorP5Text1 p{
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+}

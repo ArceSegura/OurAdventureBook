@@ -1,0 +1,48 @@
+.ContenedorP4{
+    height: 100% !important; 
+    border-bottom: 3px solid var(--vino);
+    border-right: 3px solid var(--vino);
+    border-top: 3px solid var(--vino);
+    margin: 0;
+    background-image: url(../../images/textura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ContenedorP4Titulo{
+    color: var(--vino);
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin: 4rem 0 0 0;
+    text-align: center;
+}
+
+.ContenedorP4Images, .ContenedorP4Img1, .ContenedorP4Img2, .ContenedorP4Img3, .ContenedorP4Img4{
+    overflow: visible !important;
+}
+
+.ContenedorP4Img1 img{
+    height: 90% !important;
+    width: 90% !important;
+    display:block;
+    margin:auto;
+    
+}
+.ContenedorP4Img2 img{
+    height: 90% !important;
+    width: 90% !important;
+    display:block;
+    margin:auto;
+}
+.ContenedorP4Img3 img{
+    height: 90% !important;
+    width: 90% !important;
+    display:block;
+    margin:auto;
+}
+.ContenedorP4Img4 img{
+    height: 90% !important;
+    width: 90% !important;
+    display:block;
+    margin:auto;
+}

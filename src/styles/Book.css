@@ -1,0 +1,33 @@
+.TituloBook{
+    color: var(--vino);
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.ContenedorBook{
+    height: 105rem;
+    padding: 0;
+}
+
+.adventure-book{
+    padding: 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.adventure-book div{
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.adventure-book div img{
+    width: 100%;
+    height: auto;
+  }
+
+.EtiquetasContenedor{
+   padding-top: 2.5rem;
+}

@@ -1,0 +1,104 @@
+.Forma{
+    padding-bottom: 0.0.7rem !important;
+}
+.EtiquetasContenedor{
+    background-color: var(--vino);
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+.BotonMorado{
+    border: 0;
+    width: 100%;
+    height: 6rem;
+    background-color: var(--vino);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Etiqueta2.svg);
+    transition: .3s;
+}
+.BotonMorado:hover{
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonMorado:focus{
+    border-color: none;
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonVerde{
+    border: 0;
+    width: 100%;
+    height: 6rem;
+    background-color: var(--vino);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Etiqueta3.svg);
+    transition: .3s;
+}
+.BotonVerde:hover{
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonVerde:focus{
+    border-color: none;
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonNaranja{
+    border: 0;
+    width: 100%;
+    height: 6rem;
+    background-color: var(--vino);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Etiqueta4.svg);
+    transition: .3s;
+}
+.BotonNaranja:hover{
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonNaranja:focus{
+    border-color: none;
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonAzul{
+    border: 0;
+    width: 100%;
+    height: 6rem;
+    background-color: var(--vino);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Etiqueta5.svg);
+    transition: .3s;
+}
+.BotonAzul:hover{
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonAzul:focus{
+    border-color: none;
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonCarne{
+    border: 0;
+    width: 100%;
+    height: 6rem;
+    background-color: var(--vino);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Etiqueta6.svg);
+    transition: .3s;
+}
+.BotonCarne:hover{
+    background-color: white;
+    transform: translate(-40px, 0);
+}
+.BotonCarne:focus{
+    border-color: none;
+    background-color: white;
+    transform: translate(-40px, 0);
+}

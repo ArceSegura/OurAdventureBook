@@ -1,0 +1,27 @@
+.Contenido{
+    height: 100%;
+    padding: 5rem 0 2rem 0;
+}
+
+.Texto{
+    padding: 5rem 0;
+}
+
+.Texto div{
+    margin: 5rem;
+}
+
+.Texto div h1{
+    color: var(--vino);
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 2rem;
+}
+
+.Texto div p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
