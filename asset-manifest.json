@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/OurAdventureBook/static/css/main.55da2e8e.chunk.css",
-    "main.js": "/OurAdventureBook/static/js/main.12743d98.chunk.js",
-    "main.js.map": "/OurAdventureBook/static/js/main.12743d98.chunk.js.map",
+    "main.css": "/OurAdventureBook/static/css/main.00fc93d4.chunk.css",
+    "main.js": "/OurAdventureBook/static/js/main.1c4bd132.chunk.js",
+    "main.js.map": "/OurAdventureBook/static/js/main.1c4bd132.chunk.js.map",
     "runtime-main.js": "/OurAdventureBook/static/js/runtime-main.42a3a0ba.js",
     "runtime-main.js.map": "/OurAdventureBook/static/js/runtime-main.42a3a0ba.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/OurAdventureBook/static/css/2.ae9f1eb3.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3ab0c50c.chunk.js.map": "/OurAdventureBook/static/js/2.3ab0c50c.chunk.js.map",
     "index.html": "/OurAdventureBook/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/OurAdventureBook/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.55da2e8e.chunk.css.map": "/OurAdventureBook/static/css/main.55da2e8e.chunk.css.map",
+    "static/css/main.00fc93d4.chunk.css.map": "/OurAdventureBook/static/css/main.00fc93d4.chunk.css.map",
     "static/js/2.3ab0c50c.chunk.js.LICENSE.txt": "/OurAdventureBook/static/js/2.3ab0c50c.chunk.js.LICENSE.txt",
     "static/media/Colon1.f8cc657a.jpg": "/OurAdventureBook/static/media/Colon1.f8cc657a.jpg",
     "static/media/Colon2.304db554.jpg": "/OurAdventureBook/static/media/Colon2.304db554.jpg",
@@ -49,7 +49,7 @@
     "static/js/runtime-main.42a3a0ba.js",
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.3ab0c50c.chunk.js",
-    "static/css/main.55da2e8e.chunk.css",
-    "static/js/main.12743d98.chunk.js"
+    "static/css/main.00fc93d4.chunk.css",
+    "static/js/main.1c4bd132.chunk.js"
   ]
 }
