@@ -135,7 +135,7 @@
     }
     .Logo{
         color: var(--blanco);
-        font-size: 2.3rem;
+        font-size: 2rem;
         line-height: 0;
         font-weight: 700;
         font-family: 'Roboto Slab', serif;
@@ -179,7 +179,7 @@
 ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 200px) and (max-width: 480px) {
     .Header{
         background-color: var(--vino);
         padding: 2rem 1rem;
@@ -196,7 +196,7 @@
     }
     .Logo{
         color: var(--blanco);
-        font-size: 2.1rem;
+        font-size: 1.5rem;
         line-height: 0;
         font-weight: 700;
         text-align: center;

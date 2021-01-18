@@ -45,7 +45,7 @@ const Cronometro = () => {
     return ( 
         <div className="CronoContenedor row">
             <div className="col-12">
-                <h1 className="CronoTitulo">Titulo</h1>
+                <h1 className="CronoTitulo">Nuestro tiempo juntos</h1>
             </div>
             <div className="col-12 ">
                 <div className="clock_container">
@@ -68,7 +68,7 @@ const Cronometro = () => {
                 </div>
             </div>
             <div className="col-12 clkTitulo">
-                <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+                <p>Seguiremos escribiendo nuestra historia por mucho tiempo más amor, te amo!</p>
             </div>
             <div className="col-12"></div>
         </div>
