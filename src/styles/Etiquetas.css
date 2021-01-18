@@ -102,3 +102,223 @@
     background-color: white;
     transform: translate(-40px, 0);
 }
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .Forma{
+        display: inline-block;
+        align-items: center;
+        margin: 12px;
+     }
+     .EtiquetasContenedor{
+         background-color: var(--vino);
+     }
+     .BotonMorado{
+         border: 0;
+         width: 100%;
+         height: 3rem;
+         background-color: var(--vino);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-image: url(../images/Etiqueta2.svg);
+         transition: .3s;
+     }
+     .BotonMorado:hover{
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonMorado:focus{
+         border-color: none;
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonVerde{
+         border: 0;
+         width: 100%;
+         height: 3rem;
+         background-color: var(--vino);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-image: url(../images/Etiqueta3.svg);
+         transition: .3s;
+     }
+     .BotonVerde:hover{
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonVerde:focus{
+         border-color: none;
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonNaranja{
+         border: 0;
+         width: 100%;
+         height: 3rem;
+         background-color: var(--vino);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-image: url(../images/Etiqueta4.svg);
+         transition: .3s;
+     }
+     .BotonNaranja:hover{
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonNaranja:focus{
+         border-color: none;
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonAzul{
+         border: 0;
+         width: 100%;
+         height: 3rem;
+         background-color: var(--vino);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-image: url(../images/Etiqueta5.svg);
+         transition: .3s;
+     }
+     .BotonAzul:hover{
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonAzul:focus{
+         border-color: none;
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonCarne{
+         border: 0;
+         width: 100%;
+         height: 3rem;
+         background-color: var(--vino);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-image: url(../images/Etiqueta6.svg);
+         transition: .3s;
+     }
+     .BotonCarne:hover{
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+     .BotonCarne:focus{
+         border-color: none;
+         background-color: var(--vino);
+         transform: translate(0, -10px);
+     }
+}
+
+ /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+@media (min-width: 320px) and (max-width: 480px) {
+    .Forma{
+       display: inline-block;
+       align-items: center;
+       margin: 6px;
+    }
+    .EtiquetasContenedor{
+        background-color: var(--vino);
+    }
+    .BotonMorado{
+        border: 0;
+        width: 100%;
+        height: 3rem;
+        background-color: var(--vino);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/Etiqueta2.svg);
+        transition: .3s;
+    }
+    .BotonMorado:hover{
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonMorado:focus{
+        border-color: none;
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonVerde{
+        border: 0;
+        width: 100%;
+        height: 3rem;
+        background-color: var(--vino);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/Etiqueta3.svg);
+        transition: .3s;
+    }
+    .BotonVerde:hover{
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonVerde:focus{
+        border-color: none;
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonNaranja{
+        border: 0;
+        width: 100%;
+        height: 3rem;
+        background-color: var(--vino);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/Etiqueta4.svg);
+        transition: .3s;
+    }
+    .BotonNaranja:hover{
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonNaranja:focus{
+        border-color: none;
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonAzul{
+        border: 0;
+        width: 100%;
+        height: 3rem;
+        background-color: var(--vino);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/Etiqueta5.svg);
+        transition: .3s;
+    }
+    .BotonAzul:hover{
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonAzul:focus{
+        border-color: none;
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonCarne{
+        border: 0;
+        width: 100%;
+        height: 3rem;
+        background-color: var(--vino);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/Etiqueta6.svg);
+        transition: .3s;
+    }
+    .BotonCarne:hover{
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+    .BotonCarne:focus{
+        border-color: none;
+        background-color: var(--vino);
+        transform: translate(0, -10px);
+    }
+  }

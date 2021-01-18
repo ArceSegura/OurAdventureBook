@@ -11,14 +11,14 @@
     font-size: 4rem;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
-    margin: 3rem 0 1rem 0;
+    margin: 3rem 0 3rem 0;
     text-align: center;
 }
 .ContenedorP3Img1 img{
     display:block;
     margin:auto;
-    height: 80% !important;
-    width: 80% !important;
+    height: 70% !important;
+    width: 60% !important;
     
 }
 .ContenedorP3Imgages {
@@ -54,9 +54,147 @@
 }
 .ContenedorP3Text1{
     padding: 0rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin:auto;
     font-weight: 400;
-    font-family: 'Roboto Slab', serif;
+    font-family:  var(--fuente);
     text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .ContenedorP3{
+        height: 100% !important; 
+        border: 3px solid var(--vino);
+        margin: 0 !important;
+        padding: 0;
+        background-image: url(../../images/textura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .ContenedorP3Titulo{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 3rem 0 3rem 0;
+        text-align: center;
+    }
+    .ContenedorP3Img1 img{
+        display:block;
+        margin:auto;
+        height: 80% !important;
+        width: 80% !important;
+        
+    }
+    .ContenedorP3Imgages {
+        transform: translateY(0);
+        overflow: visible !important;
+        margin-left: 0;
+        padding: 0;
+    }
+    .ContenedorP3Img2{
+        overflow: visible !important;
+    }
+    .ContenedorP3Img2 img{
+        height: 80% !important;
+        width: 80% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    .ContenedorP3Img3{
+        overflow: visible !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .ContenedorP3Img3 img{
+        height: 80% !important;
+        width: 80% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+    .ContenedorP3Text1{
+        padding: 0rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 1rem 0 2rem 0;
+        font-family:  var(--fuente);
+        text-align: center;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .ContenedorP3{
+        height: 100% !important; 
+        border: 3px solid var(--vino);
+        margin: 0 !important;
+        padding: 0;
+        background-image: url(../../images/textura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .ContenedorP3Titulo{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 3rem 0 3rem 0;
+        text-align: center;
+    }
+    .ContenedorP3Img1 img{
+        display:block;
+        margin:auto;
+        height: 80% !important;
+        width: 80% !important;
+        
+    }
+    .ContenedorP3Imgages {
+        transform: translateY(0);
+        overflow: visible !important;
+        margin-left: 0;
+        padding: 0;
+    }
+    .ContenedorP3Img2{
+        overflow: visible !important;
+    }
+    .ContenedorP3Img2 img{
+        height: 80% !important;
+        width: 80% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    .ContenedorP3Img3{
+        overflow: visible !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .ContenedorP3Img3 img{
+        height: 80% !important;
+        width: 80% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(2deg);
+        -moz-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        transform: rotate(2deg);
+    }
+    .ContenedorP3Text1{
+        padding: 0rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin: 1rem 0 5rem 0;
+        font-family:  var(--fuente);
+        text-align: center;
+    }
+  }

@@ -11,13 +11,13 @@ const Pagina3 = ({titulo, img1, img2, img3, text1}) => {
                 <img src={img1} alt="img"/>
             </div>
             <div className="row ContenedorP3Imgages">
-                <div  className="col-4 ContenedorP3Img2 animate__animated animate__jackInTheBox">
+                <div  className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ContenedorP3Img2 animate__animated animate__jackInTheBox">
                     <img src={img2} alt="img"/>
                 </div>
-                <div  className="col-4 ContenedorP3Text1 animate__animated animate__jackInTheBox">
+                <div  className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ContenedorP3Text1 animate__animated animate__jackInTheBox">
                     <p>{text1}</p>
                 </div>
-                <div  className="col-4 ContenedorP3Img3 animate__animated animate__jackInTheBox">
+                <div  className="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 ContenedorP3Img3 animate__animated animate__jackInTheBox">
                     <img src={img3} alt="img"/>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 .TituloBook{
     color: var(--vino);
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 5rem;
@@ -31,3 +31,76 @@
 .EtiquetasContenedor{
    padding-top: 2.5rem;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .TituloBook{
+        color: var(--vino);
+        font-size: 3.5rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .TituloBook{
+        color: var(--vino);
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .TituloBook{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .ContenedorBook{
+      height: 100%;
+      padding: 0;
+  }
+    .EtiquetasContenedor{
+        padding-top: 2.5rem;
+        padding: 0 auto;
+     }
+  }
+
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .TituloBook{
+      color: var(--vino);
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: 'Roboto Slab', serif;
+      margin-bottom: 3rem;
+      text-align: center;
+  }
+  .ContenedorBook{
+    height: 100%;
+    padding: 0;
+}
+  .EtiquetasContenedor{
+      padding-top: 2.5rem;
+      padding: 0 auto;
+   }
+  }

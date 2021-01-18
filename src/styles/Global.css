@@ -1,6 +1,7 @@
 :root{
   --vino: #5f0404;
   --blanco: rgba(255, 255, 255, 0.945);
+  --fuente: 'Source Code Pro', monospace;
 }
 html{
   font-size: 62.5%;

@@ -1,9 +1,4 @@
-@media (min-width:200px) {
-    .ContenedorHeader{
-        display: flex;
-        justify-content: space-between;
-    }
-}
+
 
 .Header{
     background-color: var(--vino);
@@ -22,7 +17,7 @@
 }
 .Logo{
     color: var(--blanco);
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 0;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
@@ -48,7 +43,7 @@
     width: 20.5rem;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    margin: 0 3rem 0 auto;
 }
 
 .button:hover{
@@ -56,4 +51,195 @@
     background-color: var(--blanco);
     text-decoration: none;
     border: 1px solid var(--vino);
+}
+
+/* 
+##Device = Ipads
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .Header{
+        background-color: var(--vino);
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+    }
+    .ContenedorHeader{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .ContenedorLogo{
+        display: flex;
+        align-items: center;
+    }
+    .Logo{
+        color: var(--blanco);
+        font-size: 2.3rem;
+        line-height: 0;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 1rem auto 2rem auto;
+    }
+    .Logo:hover{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    .ContenedorLogin{
+        display: flex;
+        align-items: center;
+    }
+    .button{
+        display: inline-block;
+        border-radius: 4px;
+        background-color: var(--vino);
+        border: 1px solid var(--blanco);
+        color: var(--blanco);
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+        width: 20.5rem;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 1rem auto;
+    }
+    
+    .button:hover{
+        color: var(--vino);
+        background-color: var(--blanco);
+        text-decoration: none;
+        border: 1px solid var(--vino);
+    }
+
+
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .Header{
+        background-color: var(--vino);
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+    }
+    .ContenedorHeader{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .ContenedorLogo{
+        display: flex;
+        align-items: center;
+    }
+    .Logo{
+        color: var(--blanco);
+        font-size: 2.3rem;
+        line-height: 0;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 1rem auto 2rem auto;
+    }
+    .Logo:hover{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    .ContenedorLogin{
+        display: flex;
+        align-items: center;
+    }
+    .button{
+        display: inline-block;
+        border-radius: 4px;
+        background-color: var(--vino);
+        border: 1px solid var(--blanco);
+        color: var(--blanco);
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+        width: 20.5rem;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 1rem auto;
+    }
+    
+    .button:hover{
+        color: var(--vino);
+        background-color: var(--blanco);
+        text-decoration: none;
+        border: 1px solid var(--vino);
+    }
+
+
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .Header{
+        background-color: var(--vino);
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+    }
+    .ContenedorHeader{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .ContenedorLogo{
+        display:flex;
+        align-items: center;
+    }
+    .Logo{
+        color: var(--blanco);
+        font-size: 2.1rem;
+        line-height: 0;
+        font-weight: 700;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        margin: 1rem auto 2rem auto;
+    }
+    .Logo a{
+        text-align: center;
+    }
+    .Logo:hover{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    .ContenedorLogin{
+        display: flex;
+        align-items: center;
+    }
+    .button{
+        display: inline-block;
+        border-radius: 4px;
+        background-color: var(--vino);
+        border: 1px solid var(--blanco);
+        color: var(--blanco);
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+        width: 20.5rem;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 1rem auto;
+    }
+    
+    .button:hover{
+        color: var(--vino);
+        background-color: var(--blanco);
+        text-decoration: none;
+        border: 1px solid var(--vino);
+    }
+}
+
+@media (min-width:481px) {
+    .ContenedorHeader{
+        display: flex;
+        justify-content: space-between;
+    }
 }

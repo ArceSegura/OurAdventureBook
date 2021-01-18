@@ -30,8 +30,94 @@
 }
 .ContenedorP2Text1{
     padding: 0 7rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 400;
-    font-family: 'Roboto Slab', serif;
+    font-family:  var(--fuente);
     text-align: center;
 }
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  @media (min-width: 320px) and (max-width: 480px) {
+    .ContenedorP2{
+        height: 100% !important; 
+        border: 3px solid var(--vino);
+        margin: 0;
+        background-image: url(../../images/textura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    
+    .ContenedorP2Titulo{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 3rem 0  3rem 0;
+        text-align: center;
+    }
+    .ContenedorP2Img1{
+        overflow: visible !important;
+    }
+    
+    .ContenedorP2Img1 img{
+        height: 70% !important;
+        width: 70% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    .ContenedorP2Text1{
+        padding: 0 7rem;
+        font-size: 1rem;
+        font-weight: 400;
+        font-family:  var(--fuente);
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .ContenedorP2{
+        height: 100% !important; 
+        border: 3px solid var(--vino);
+        margin: 0;
+        background-image: url(../../images/textura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    
+    .ContenedorP2Titulo{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 3rem 0  3rem 0;
+        text-align: center;
+    }
+    .ContenedorP2Img1{
+        overflow: visible !important;
+    }
+    
+    .ContenedorP2Img1 img{
+        height: 70% !important;
+        width: 70% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+    .ContenedorP2Text1{
+        padding: 0 7rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family:  var(--fuente);
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+  }

@@ -5,7 +5,7 @@ const Footer = () => {
     return ( 
         <div className="footer row">
             <div className="col-12">  
-                    <h1>Texto</h1> 
+                    <h1>Our Adventure Book</h1> 
             </div>
         </div>
     );

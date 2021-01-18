@@ -19,30 +19,50 @@
 
 .ContenedorP4Images, .ContenedorP4Img1, .ContenedorP4Img2, .ContenedorP4Img3, .ContenedorP4Img4{
     overflow: visible !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ContenedorP4Img1 img{
     height: 90% !important;
     width: 90% !important;
-    display:block;
-    margin:auto;
-    
 }
 .ContenedorP4Img2 img{
     height: 90% !important;
     width: 90% !important;
-    display:block;
-    margin:auto;
 }
 .ContenedorP4Img3 img{
     height: 90% !important;
     width: 90% !important;
-    display:block;
-    margin:auto;
 }
 .ContenedorP4Img4 img{
     height: 90% !important;
     width: 90% !important;
-    display:block;
-    margin:auto;
 }
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  @media (min-width: 320px) and (max-width: 480px) {
+    .ContenedorP4Titulo{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 4rem 0 4rem 0;
+        text-align: center;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .ContenedorP4Titulo{
+        color: var(--vino);
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 4rem 0 4rem 0;
+        text-align: center;
+    }
+  }

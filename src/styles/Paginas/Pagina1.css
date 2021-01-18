@@ -45,13 +45,223 @@
     font-size: 1.8rem;
     padding: 3rem 6rem 0 3rem;
     font-weight: 400;
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--fuente);
     text-align: center;
 }
 .ContenedorP1Text2{
     padding: 3rem 3rem 0 6rem;
     font-size: 1.8rem;
     font-weight: 400;
-    font-family: 'Roboto Slab', serif;
+    font-family: var(--fuente);
     text-align:center;
+}
+.ContenedorSize1{
+    font-size: 3rem;
+    padding: 3rem 6rem 0 3rem;
+    font-weight: 400;
+    font-family: var(--fuente);
+    text-align: center;
+}
+.ContenedorSize1 p{
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+.ContenedorSize2{
+    font-size: 3rem;
+    padding: 3rem 6rem 0 3rem;
+    font-weight: 400;
+    font-family: var(--fuente);
+    text-align: center;
+}
+.ContenedorSize2 p{
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+@media (min-width: 320px) and (max-width: 480px) {
+    .ContenedorP1{
+        height: 100% !important; 
+        border: 3px solid var(--vino);
+        margin: 0;
+        background-image: url(../../images/textura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: visible !important;
+    }
+    .ContenedorP1Titulo{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 3rem 0  3rem 0;
+        text-align: center;
+    }
+    .ContenedorP1Img1{
+        overflow: visible !important;
+    }
+    .ContenedorP1Img1 img{
+        height: 80% !important;
+        width: 80% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(-7deg);
+        -moz-transform: rotate(-7deg);
+        -ms-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+    }
+    .ContenedorP1Img2{
+        overflow: visible !important;
+    }
+    .ContenedorP1Img2 img{
+        height: 60% !important;
+        width: 70% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(7deg);
+        -moz-transform: rotate(7deg);
+        -ms-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+    .ContenedorP1Text1{
+        font-size: 1.1rem;
+        padding: 0 3rem 0 0;
+        font-weight: 400;
+        font-family: var(--fuente);
+        text-align: center;
+    }
+    .ContenedorP1Text2{
+        padding:2rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        font-family: var(--fuente);
+        text-align:center;
+    }
+    .ContenedorSize1{
+        font-size: 2rem;
+        padding: 1rem;
+        font-weight: 400;
+        font-family: var(--fuente);
+        text-align: center;
+    }
+    .ContenedorSize1 p{
+        -webkit-transform: rotate(4deg);
+        -moz-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+    .ContenedorSize2{
+        font-size: 2rem;
+        padding: 1rem;
+        font-weight: 400;
+        font-family: var(--fuente);
+        text-align: center;
+    }
+    .ContenedorSize2 p{
+        -webkit-transform: rotate(-4deg);
+        -moz-transform: rotate(-4deg);
+        -ms-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+
+    
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .ContenedorP1{
+        height: 100% !important; 
+        border: 3px solid var(--vino);
+        margin: 0;
+        background-image: url(../../images/textura.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: visible !important;
+    }
+    .ContenedorP1Titulo{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        margin: 3rem 0  4rem 0;
+        text-align: center;
+    }
+    .ContenedorP1Img1{
+        overflow: visible !important;
+    }
+    .ContenedorP1Img1 img{
+        height: 80% !important;
+        width: 80% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(-7deg);
+        -moz-transform: rotate(-7deg);
+        -ms-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+    }
+    .ContenedorP1Img2{
+        overflow: visible !important;
+    }
+    .ContenedorP1Img2 img{
+        height: 60% !important;
+        width: 70% !important;
+        display:block;
+        margin:auto;
+        -webkit-transform: rotate(7deg);
+        -moz-transform: rotate(7deg);
+        -ms-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+    .ContenedorP1Text1{
+        font-size: 1.1rem;
+        padding: 0 3rem 0 0;
+        font-weight: 400;
+        font-family: var(--fuente);
+        text-align: center;
+    }
+    .ContenedorP1Text2{
+        padding:2rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        font-family: var(--fuente);
+        text-align:center;
+    }
+    .ContenedorSize1{
+        font-size: 2rem;
+        padding: 1rem;
+        font-weight: 400;
+        font-family: var(--fuente);
+        text-align: center;
+    }
+    .ContenedorSize1 p{
+        -webkit-transform: rotate(4deg);
+        -moz-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+        transform: rotate(4deg);
+    }
+    .ContenedorSize2{
+        font-size: 2rem;
+        padding: 1rem;
+        font-weight: 400;
+        font-family: var(--fuente);
+        text-align: center;
+    }
+    .ContenedorSize2 p{
+        -webkit-transform: rotate(-4deg);
+        -moz-transform: rotate(-4deg);
+        -ms-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+
 }

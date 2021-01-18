@@ -7,6 +7,7 @@ import Pagina2 from './paginas/Pagina2'
 import Pagina3 from './paginas/Pagina3'
 import Pagina4 from './paginas/Pagina4'
 import Pagina5 from './paginas/Pagina5'
+import Cronometro from './Cronometro'
 import '../../styles/Book.css'
 
 
@@ -14,11 +15,11 @@ const Book = () => {
 
     const [pagina, setPagina] = useState(0);
     return ( 
-        <div className="ContenedorBook container">
+        <div className="ContenedorBook container" id="fotos">
             
             <h1 className="TituloBook">Our Adventure Book</h1>
             <div className="row">                
-                <div className="EtiquetasContenedor col-2">
+                <div className="EtiquetasContenedor col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
                     <Etiquetas
                         Color = "morado"
                         Valor = {0}
@@ -87,41 +88,44 @@ const Book = () => {
                     
                    
                 </div>
-                <div className="adventure-book col-10"> 
+                <div className="adventure-book col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10"> 
                     {   pagina === 0 && ( 
                         <Portada/>
                     )}
 
                     {   pagina === 1 && ( 
-                        <Pagina1
-                            titulo = "Titulo"
-                            img1 = {Imagenes.img4}
-                            img2 = {Imagenes.img5}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
-                            text2 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                        <Pagina2
+                            titulo = "Y así comenzó nuestra historia..."
+                            img1 = {Imagenes.img6}
+                            text1 = "Nuestra primer foto juntos, cuando solo íbamos decididos a terminar el inventario del activo fijo. Quien sé lo imaginaria."
                         />
                     )}
 
                     {   pagina === 2 && ( 
-                        <Pagina2
-                            titulo = "Titulo"
-                            img1 = {Imagenes.img6}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                        <Pagina1
+                            titulo = "Viva Nuestro Amor"
+                            img1 = {Imagenes.img4}
+                            img2 = {Imagenes.img5}
+                            text1 = "Septiembre del 2020"
+                            text2 = "Gracias por siempre estar conmigo amor"
+                            size1 = {1}
+                            size2 = {1}
                         />
                     )}
 
+
                     {   pagina === 3 && ( 
                         <Pagina3
-                            titulo = "Titulo"
+                            titulo = "Bernal for Ever"
                             img1 = {Imagenes.img11}
                             img2 = {Imagenes.img12}
                             img3 = {Imagenes.img13}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            text1 = "Julio 2020: Sé que no te puedo comprar un Racer aún, pero tuviste uno por unas horas, espero esa aventura te allá gustado. Vamos por más experiencias juntos."
                         />
                     )}
                     {   pagina === 4 && ( 
                         <Pagina4
-                            titulo = "Titulo"
+                            titulo = "Otro mini viaje en carretera a la lista"
                             img1 = {Imagenes.img7}
                             img2 = {Imagenes.img8}
                             img3 = {Imagenes.img9}
@@ -130,57 +134,65 @@ const Book = () => {
                     )}
                     {   pagina === 5 && ( 
                         <Pagina5
-                            titulo = "Titulo"
+                            titulo = "Nuestra Pequeña familia"
                             img1 = {Imagenes.img1}
                             img2 = {Imagenes.img3}
                             img3 = {Imagenes.img2}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            text1 = "Jake e Isabella, los quiero con el alma. Nuestras Bendis."
                         />
                     )}
                     {   pagina === 6 && ( 
                         <Pagina3
-                            titulo = "Titulo"
+                            titulo = "Queso y vino con mi amorcito"
                             img1 = {Imagenes.img16}
                             img2 = {Imagenes.img14}
                             img3 = {Imagenes.img15}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            text1 = "Gracias por compartir esos gustos conmigo."
                         />
                     )}
                     {   pagina === 7 && ( 
                         <Pagina3
-                            titulo = "Titulo"
+                            titulo = "Conociendo la historia de tu mano"
                             img1 = {Imagenes.img19}
                             img2 = {Imagenes.img17}
                             img3 = {Imagenes.img18}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            text1 = "Día con día agregamos bellos capítulos a nuestra historia."
                         />
                     )}
                     {   pagina === 8 && ( 
                         <Pagina1
-                            titulo = "Titulo"
+                            titulo = "Nuestro primer Picnic"
                             img1 = {Imagenes.img20}
                             img2 = {Imagenes.img21}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
-                            text2 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            text1 = "Recuerdas que ese día tenía miedo de investigar la casa abandonada, pero de tu mano siempre todo es más fácil."
+                            text2 = "¡ Siempre juntos !"
+                            size1 = {0}
+                            size2 = {1}
                         />
                     )}
                     {   pagina === 9 && ( 
                         <Pagina5
-                            titulo = "Titulo"
+                            titulo = "Esto es Halloween"
                             img1 = {Imagenes.img22}
                             img2 = {Imagenes.img23}
                             img3 = {Imagenes.img24}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            text1 = "Solo tu haces estas locuras conmigo sin importar que” te amo!!"
                         />
                     )}
                     {   pagina === 10 && ( 
                         <Pagina5
-                            titulo = "Titulo"
+                            titulo = "San Miguel de Noche"
                             img1 = {Imagenes.img25}
                             img2 = {Imagenes.img27}
                             img3 = {Imagenes.img26}
-                            text1 = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                            text1 = "Caminar por el jardín viendo la catedral de noche fue genial, gracias a ti pude conocer a esas horas SMA"
                         />
+                    )}
+                    {   pagina === 11 && ( 
+                        <Cronometro/>
+                    )}
+                    {   pagina === 12 && ( 
+                        <Portada/>
                     )}
                 </div>
             </div>

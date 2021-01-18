@@ -4,7 +4,7 @@
 }
 
 .Texto{
-    padding: 5rem 0;
+    padding: 1rem 0;
 }
 
 .Texto div{
@@ -25,3 +25,100 @@
     font-family: 'Roboto Slab', serif;
 }
 
+
+
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .Contenido{
+        height: 100%;
+        padding: 2rem 3rem ;
+        margin: 0 auto;
+    }
+    .Texto{
+        padding: 0;
+    }
+    .Texto div{
+        margin: 3rem 2rem;
+    }
+    .Texto div h1{
+        color: var(--vino);
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+    }
+    .Texto div p{
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .Contenido{
+        height: 100%;
+        padding: 1rem 0;
+        margin: 0 auto;
+    }
+    .Texto{
+        padding: 0;
+    }
+    .Texto div{
+        margin: 3rem 2rem;
+    }
+    .Texto div h1{
+        color: var(--vino);
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+    }
+    .Texto div p{
+        font-size: 1.8rem;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .Contenido{
+        height: 100%;
+        padding: 1rem 1rem 0 1rem;
+        margin: 0;
+    }
+    .Texto{
+        padding: 0;
+    }
+    .Texto div{
+        margin: 3rem;
+    }
+    .Texto div h1{
+        color: var(--vino);
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+    }
+    .Texto div p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+    }
+  }
